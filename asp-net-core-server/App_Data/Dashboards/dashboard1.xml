@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dashboard>
+  <Title Text="New Dashboard" />
+  <DataSources>
+    <JsonDataSource Name="LocalJSONDataSource" ConnectionName="jsonLocal" RootElement="DATABASE" ComponentName="jsonDataSource1" />
+  </DataSources>
+  <Items>
+    <Pie ComponentName="pieDashboardItem1" Name="Pies 1" DataSource="jsonDataSource1">
+      <DataItems>
+        <Measure DataMember="cnt_cancelled" DefaultId="DataItem0" />
+        <Measure DataMember="cnt_completed" DefaultId="DataItem1" />
+        <Measure DataMember="cnt_delayed" DefaultId="DataItem2" />
+        <Measure DataMember="cnt_finalized" DefaultId="DataItem3" />
+        <Measure DataMember="cnt_in_progress" DefaultId="DataItem4" />
+        <Measure DataMember="cnt_pending" DefaultId="DataItem5" />
+        <Measure DataMember="cnt_planned" DefaultId="DataItem6" />
+        <Measure DataMember="cnt_suspended" DefaultId="DataItem7" />
+        <Measure DataMember="cnt_unrealized" DefaultId="DataItem8" />
+        <Measure DataMember="cnt_unlocked" DefaultId="DataItem9" />
+        <Measure DataMember="chain_id" SummaryType="Count" DefaultId="DataItem10" />
+        <Measure DataMember="project_id" SummaryType="Count" DefaultId="DataItem12" />
+        <Measure DataMember="scheduled_on" SummaryType="Count" DefaultId="DataItem13" />
+      </DataItems>
+      <Values>
+        <Value DefaultId="DataItem0" />
+        <Value DefaultId="DataItem1" />
+        <Value DefaultId="DataItem2" />
+        <Value DefaultId="DataItem3" />
+        <Value DefaultId="DataItem4" />
+        <Value DefaultId="DataItem5" />
+        <Value DefaultId="DataItem6" />
+        <Value DefaultId="DataItem7" />
+        <Value DefaultId="DataItem8" />
+        <Value DefaultId="DataItem9" />
+        <Value DefaultId="DataItem10" />
+        <Value DefaultId="DataItem12" />
+        <Value DefaultId="DataItem13" />
+      </Values>
+    </Pie>
+  </Items>
+  <LayoutTree>
+    <LayoutGroup>
+      <LayoutItem DashboardItem="pieDashboardItem1" />
+    </LayoutGroup>
+  </LayoutTree>
+</Dashboard>

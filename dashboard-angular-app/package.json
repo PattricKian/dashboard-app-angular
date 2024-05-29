@@ -19,11 +19,12 @@
     "@angular/platform-browser-dynamic": "~13.3.0",
     "@angular/router": "~13.3.0",
     "@devexpress/analytics-core": "22.2-stable",
+    "d3-funnel": "^2.1.1",
     "devexpress-dashboard": "22.2-stable",
     "devexpress-dashboard-angular": "22.2-stable",
     "devextreme": "22.2-stable",
     "devextreme-angular": "22.2-stable",
-    "devexpress-richedit": "22.2-stable",
+    "jszip": "^3.10.1",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"

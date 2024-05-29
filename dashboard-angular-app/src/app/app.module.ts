@@ -1,7 +1,8 @@
-import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+
 import { DxDashboardControlModule } from 'devexpress-dashboard-angular';
 import { DevExtremeModule } from 'devextreme-angular';
 
@@ -11,10 +12,14 @@ import { DevExtremeModule } from 'devextreme-angular';
   ],
   imports: [
     BrowserModule,
-    DxDashboardControlModule,
-    DevExtremeModule
+    DevExtremeModule,
+    DxDashboardControlModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+  
+ }
+
+

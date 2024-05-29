@@ -1,3 +1,5 @@
+
+
 <div class="header">
   <dx-select-box
     [width]="200"
@@ -21,5 +23,8 @@
     [(dashboardId)]="dashboardId"
     [workingMode]='workingMode'
     (onBeforeRender)='onBeforeRender($event)'>
+    
+    <dxo-data-request-options itemDataLoadingMode="OnDemand" itemDataRequestMode="BatchRequests"></dxo-data-request-options>
   </dx-dashboard-control>
 </div>
+
